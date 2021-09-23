@@ -1,7 +1,9 @@
 
 #Define variables 
 
-Day = 
-Month = 
-Year = 
-Gender = 
+day = 
+month = 
+year = 
+gender = 
+
+Lucky_number = pow(month, day) + pow(year, day) + gender*day
